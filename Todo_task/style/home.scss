@@ -1,0 +1,102 @@
+html, body{
+    height: 100%;
+    background-color: #b4b4b4;
+}
+.header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: green;
+    align-items: center;
+    justify-content: center;
+}
+.left-header{
+    flex:1;
+    margin:20px;
+}
+.right-header{
+    flex:1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    margin:20px;
+}
+.search-input{
+    height: 25px;
+    width: 300px;
+    margin-right: 10px;
+}
+.main{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: #b4b4b4;
+}
+.todo, .in-progress, .todo-done{
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+.todo-box, .progress-box, .done-box{
+    width: 70%;
+    height:50px;
+    margin:20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid rgb(136, 136, 136);
+}
+h4{
+    color:green;
+}
+.todo-content, .progress-content, .done-content{
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+.vl{
+    border-left: 4px solid rgb(136, 136, 136);
+    height: 500px;
+}
+.modalClass {
+    text-align: center;
+    margin-top: 200px;
+}
+.input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: 10px;
+}
+label{
+    align-self: flex-start;
+}
+h2 {
+    font-weight: bold;
+    font-size: 1rem;
+}
+ul,
+li {
+    list-style: none;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #000;
+    background: #ffc;
+    display: block;
+    height: 5em;
+    width: 5em;
+    padding: 1em;
+}
+
+ul li {
+    margin: 1em;
+}
